@@ -58,6 +58,7 @@ Technology choices and versions: [docs/architecture/overview/stack.md](docs/arch
 | How to contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Code of conduct | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
 | Security | [SECURITY.md](SECURITY.md) |
+| Accessibility | [ACCESSIBILITY.md](ACCESSIBILITY.md) |
 | Support | [SUPPORT.md](SUPPORT.md) |
 | Changelog | [CHANGELOG.md](CHANGELOG.md) |
 

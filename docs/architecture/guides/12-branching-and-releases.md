@@ -17,7 +17,7 @@ flowchart LR
 ## Day-to-day development
 
 1. Branch from **`dev`** (keep names short and descriptive, e.g. `feature/scn-042-work-list`).
-2. Open a pull request **into `dev`** when ready.
+2. Open a pull request **into `dev`** when ready. GitHub pre-fills the body from [.github/pull_request_template.md](../../../.github/pull_request_template.md) (must exist on the repo default branch, **`main`**).
 3. CI must pass (see [.github/workflows/ci.yml](../../../.github/workflows/ci.yml)).
 4. After review, merge to `dev`. Dependabot dependency PRs also target **`dev`** ([dependabot.yml](../../../.github/dependabot.yml)).
 
@@ -38,7 +38,7 @@ After bootstrap, use the normal flow: features → **`dev`**, releases → **`ma
 When maintainers cut a new version (e.g. `0.0.2`):
 
 1. On **`dev`**, ensure [CHANGELOG.md](../../../CHANGELOG.md) `[Unreleased]` (or the new version section) is complete.
-2. Open a pull request **`dev` → `main`** (use the [release PR template](../../../.github/PULL_REQUEST_TEMPLATE/release.md) on GitHub).
+2. Open a pull request **`dev` → `main`** using the release template query parameter, e.g. [compare `dev` into `main` with `template=release.md`](https://github.com/noamarg/WorkCrate/compare/main...dev?expand=1&template=release.md) (source: [.github/PULL_REQUEST_TEMPLATE/release.md](../../../.github/PULL_REQUEST_TEMPLATE/release.md)).
 3. After merge to **`main`**, tag the release (e.g. `v0.0.2`) and publish a GitHub release from that tag.
 4. Keep **`dev`** as the integration branch for the next cycle (merge or re-sync `main` into `dev` if your process requires a fast-forward alignment).
 
