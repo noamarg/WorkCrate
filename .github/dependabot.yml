@@ -1,0 +1,13 @@
+# Dependency PRs merge into dev (integration branch). Releases promote dev → main.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /apps/frontend
+    target-branch: dev
+    schedule:
+      interval: weekly
+  - package-ecosystem: gomod
+    directory: /apps/backend
+    target-branch: dev
+    schedule:
+      interval: weekly

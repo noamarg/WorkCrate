@@ -1,0 +1,28 @@
+name: Documentation
+description: Report unclear, missing, or incorrect docs
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Docs live under `docs/usecases/` and `docs/architecture/`. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
+  - type: input
+    id: area
+    attributes:
+      label: Doc area
+      placeholder: usecases / architecture / README / other
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
