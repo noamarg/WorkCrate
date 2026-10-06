@@ -20,6 +20,10 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request. Use **
 
 See [SECURITY.md](SECURITY.md). Do not file public issues for vulnerabilities.
 
+## Accessibility
+
+See [ACCESSIBILITY.md](ACCESSIBILITY.md) for our commitment, supported environments, known limitations, and how to report barriers.
+
 ## Questions
 
 Use a GitHub issue with a clear title (e.g. “Question: …”) or enable **Discussions** on the repository for Q&A. For product direction, reference relevant `SCN-*` or capability docs when you can.

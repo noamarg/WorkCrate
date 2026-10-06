@@ -31,4 +31,4 @@
 ## Checklist
 
 - [ ] Target branch is **`dev`** (not `main`, unless this is a release PR)
-- [ ] I have read [CONTRIBUTING.md](../../CONTRIBUTING.md) and [Code of Conduct](../../CODE_OF_CONDUCT.md)
+- [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md) and [Code of Conduct](../CODE_OF_CONDUCT.md)
